@@ -1,0 +1,76 @@
+.body{
+    background-color: #dbdbdb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style-type: none;  
+    display: inline-block;
+    padding: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: rgb(255, 255, 255);
+    padding: 5px; 
+    transition: color 1s , background-color 1s;
+}
+nav{
+    background-color:#607D8B;
+}
+
+nav ul{
+    text-align: center;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+body{
+    background-color: #2f414a;
+}
+.formbaşlıgı{
+    text-align: center;
+    font-size: 40px;
+}
+.destekform{
+    width: 520px;
+    margin: auto;
+}
+.destekform label,
+.destekform input,
+.destekform select{
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+.destekform button{
+    display: block;
+    margin-top: 35px;
+}
+.destekform input,
+.destekform select{
+    border: #607D8B;
+    padding: 10px 15px;
+}
+.destek{
+    padding-top: 7%;
+}
+.btn2{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    background-color: #7fbcd2;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 165px;
+
+}
